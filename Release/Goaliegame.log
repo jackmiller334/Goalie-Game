@@ -1,0 +1,41 @@
+﻿Build started 15/03/2014 15:35:40.
+     1>Project "C:\Users\miller\Desktop\Goalie Game\Goaliegame.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\miller\Desktop\Goalie Game\/SFML-2.1\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Source\scene.cpp
+         scene.cpp
+     1>Source\scene.cpp(11): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Source\scene.cpp(16): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>Source\scene.cpp(84): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>Source\scene.cpp(85): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>Source\scene.cpp(171): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>Source\scene.cpp(173): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>Source\scene.cpp(210): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>Source\scene.cpp(216): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\miller\Desktop\Goalie Game\Release\Goaliegame.exe" /NOLOGO /LIBPATH:"C:\Users\miller\Desktop\Goalie Game\/SFML-2.1\lib" "sfml-graphics.lib" "sfml-main.lib" "sfml-audio.lib" "sfml-network.lib" "sfml-system.lib" "sfml-window.lib" opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\miller\Desktop\Goalie Game\Release\Goaliegame.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\miller\Desktop\Goalie Game\Release\Goaliegame.lib" /MACHINE:X86 /SAFESEH Release\Goaliegame.res
+         Release\aabb.obj
+         Release\audio.obj
+         Release\background.obj
+         Release\ball.obj
+         Release\controller.obj
+         Release\footballer.obj
+         Release\game.obj
+         Release\goalie.obj
+         Release\headsUpDisplay.obj
+         Release\main.obj
+         Release\object.obj
+         Release\object_manager.obj
+         Release\scene.obj
+         Release\screen_text.obj
+         Release\spectator.obj
+         Release\vector2D.obj
+         Generating code
+     1>c:\users\miller\desktop\goalie game\source\controller.cpp(87): warning C4715: 'Controller::getInputButtons' : not all control paths return a value
+     1>c:\users\miller\desktop\goalie game\source\controller.cpp(41): warning C4715: 'Controller::getLeftJoyStickDirection' : not all control paths return a value
+         Finished generating code
+         Goaliegame.vcxproj -> C:\Users\miller\Desktop\Goalie Game\Release\Goaliegame.exe
+     1>Done Building Project "C:\Users\miller\Desktop\Goalie Game\Goaliegame.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.86

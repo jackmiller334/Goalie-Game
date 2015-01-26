@@ -1,0 +1,36 @@
+﻿Build started 26/01/2015 15:05:34.
+     1>Project "C:\Users\Jack\Desktop\Visual Studio Project Files\Goalie Game\Goaliegame.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Users\Jack\Desktop\Visual Studio Project Files\Goalie Game\/SFML-2.1\include" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Source\scene.cpp
+         scene.cpp
+     1>c:\users\jack\desktop\visual studio project files\goalie game\source\scene.cpp(11): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\jack\desktop\visual studio project files\goalie game\source\scene.cpp(16): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\jack\desktop\visual studio project files\goalie game\source\scene.cpp(82): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\jack\desktop\visual studio project files\goalie game\source\scene.cpp(83): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\jack\desktop\visual studio project files\goalie game\source\scene.cpp(95): error C2601: 'Scene::drawScene' : local function definitions are illegal
+                 c:\users\jack\desktop\visual studio project files\goalie game\source\scene.cpp(31): this line contains a '{' which has not yet been matched
+     1>c:\users\jack\desktop\visual studio project files\goalie game\source\scene.cpp(119): error C2601: 'Scene::showScore' : local function definitions are illegal
+                 c:\users\jack\desktop\visual studio project files\goalie game\source\scene.cpp(31): this line contains a '{' which has not yet been matched
+     1>c:\users\jack\desktop\visual studio project files\goalie game\source\scene.cpp(125): error C2601: 'Scene::checkCombo' : local function definitions are illegal
+                 c:\users\jack\desktop\visual studio project files\goalie game\source\scene.cpp(31): this line contains a '{' which has not yet been matched
+     1>c:\users\jack\desktop\visual studio project files\goalie game\source\scene.cpp(145): error C2601: 'Scene::waitForBall' : local function definitions are illegal
+                 c:\users\jack\desktop\visual studio project files\goalie game\source\scene.cpp(31): this line contains a '{' which has not yet been matched
+     1>c:\users\jack\desktop\visual studio project files\goalie game\source\scene.cpp(168): error C2601: 'Scene::createBall' : local function definitions are illegal
+                 c:\users\jack\desktop\visual studio project files\goalie game\source\scene.cpp(31): this line contains a '{' which has not yet been matched
+     1>c:\users\jack\desktop\visual studio project files\goalie game\source\scene.cpp(181): error C2601: 'Scene::loadComboTextures' : local function definitions are illegal
+                 c:\users\jack\desktop\visual studio project files\goalie game\source\scene.cpp(31): this line contains a '{' which has not yet been matched
+     1>c:\users\jack\desktop\visual studio project files\goalie game\source\scene.cpp(200): error C2601: 'Scene::getPlayerLives' : local function definitions are illegal
+                 c:\users\jack\desktop\visual studio project files\goalie game\source\scene.cpp(31): this line contains a '{' which has not yet been matched
+     1>c:\users\jack\desktop\visual studio project files\goalie game\source\scene.cpp(205): error C2601: 'Scene::createCrowd' : local function definitions are illegal
+                 c:\users\jack\desktop\visual studio project files\goalie game\source\scene.cpp(31): this line contains a '{' which has not yet been matched
+     1>c:\users\jack\desktop\visual studio project files\goalie game\source\scene.cpp(220): error C2601: 'Scene::resetBallSpeed' : local function definitions are illegal
+                 c:\users\jack\desktop\visual studio project files\goalie game\source\scene.cpp(31): this line contains a '{' which has not yet been matched
+     1>c:\users\jack\desktop\visual studio project files\goalie game\source\scene.cpp(225): error C2601: 'Scene::increaseBallSpeed' : local function definitions are illegal
+                 c:\users\jack\desktop\visual studio project files\goalie game\source\scene.cpp(31): this line contains a '{' which has not yet been matched
+     1>c:\users\jack\desktop\visual studio project files\goalie game\source\scene.cpp(238): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\jack\desktop\visual studio project files\goalie game\source\scene.cpp(241): fatal error C1075: end of file found before the left brace '{' at 'c:\users\jack\desktop\visual studio project files\goalie game\source\scene.cpp(31)' was matched
+     1>Done Building Project "C:\Users\Jack\Desktop\Visual Studio Project Files\Goalie Game\Goaliegame.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.82
