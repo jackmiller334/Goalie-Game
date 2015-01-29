@@ -1,5 +1,3 @@
-TO RUN THE GAME, GO INTO THE GOALIE! FOLDER AND CLICK GOALIE.EXE
-
 The object of the game is to save as many goals as you can.
 The balls start slowly and gradually speed up the more goals you save in a row.
 
